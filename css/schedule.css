@@ -1,0 +1,46 @@
+/**
+   Styles for the Schedule Page
+**/
+
+H1 {
+	font-family: "Century Schoolbook";
+}
+
+.header {
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+	font-weight: bold;
+}
+
+table {
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+}
+
+td {
+	padding: 5px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.t32 {
+	width: 32px;
+}
+
+.t64 {
+	width: 64px;
+}
+
+table#schedule tr {
+	background-color: #fffed3;
+}
+

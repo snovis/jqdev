@@ -1,0 +1,61 @@
+/**
+ * Styles
+ */
+
+html body { font-family: sans-serif; }
+
+div#container {
+    position: relative;
+    width: 768px;
+    height: 600px; /* 1 pix per minute = 60 pix per hour, + border so 10 hours is 20 extra pixels */
+    border: 1px solid blue;
+    display: block;
+    
+}
+
+div#header {
+    position: relative;
+    width: 768px;
+    height: 32px;
+    border: 1px solid blue;
+    display: block;
+    vertical-align: bottom;
+    line-height: 32px; /* this allows the text to be vertically centered */
+}
+
+.day1 { position: absolute;                        width: 254px; height: 100%; border: 1px solid black;    left: 0;        top: 0;  }
+.day2 { position: absolute; display: inline-block; width: 254px; height: 100%; border: 1px solid black;    left: 256px;    top: 0; }
+.day3 { position: absolute; display: inline-block; width: 254px; height: 100%; border: 1px solid black;    left: 512px;    top: 0; }
+
+.onehour
+{
+    position: absolute;
+    width: 254px;
+    height: 59px;  /* remember border is part of overall height. Top and bottom are FIRST and LAST minute of the hour.*/
+    background-color: #EFE;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid darkgreen;
+    border-left: 1px solid darkgreen;
+    border-right: 1px solid darkgreen;
+}
+
+.chip {
+    position: absolute;
+    width: 32px;
+    height: 16px;
+    font-size: 10pt;
+    display: block;
+    top: 2px;
+    left: 0;
+    font-style: italic;
+    color: #787;
+    
+}
+
+.btn {
+	color: yellow;
+	border-color: blue;
+	border-style: double;
+	border-width: 1px;
+}
